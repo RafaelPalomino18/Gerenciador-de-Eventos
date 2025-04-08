@@ -1,0 +1,83 @@
+    body{
+    background-color: #d7e9cf;
+    margin: 60px;
+    background-image: url("../imagens/baixados.gif"), url("../imagens/pig.gif");
+    background-repeat: no-repeat;
+    background-position: left 40px, right 400px;
+
+    }
+
+    h1{
+        text-align: center;
+        color: #48bc13; 
+        padding-bottom: 50px;
+        font-size: 18px;
+        margin: 0px auto 0 45px;
+        font-family: 'Press Start 2P', cursive;
+    }
+    #img_axolote{
+        width: 90px;
+        height: 70px;
+    }
+    legend{
+        color: #3f1e02;
+        font-size: 19px;
+        font-weight: 700;
+        font-family: 'Press Start 2P', cursive;
+
+    }
+    label {
+        display: inline-block;
+        width: 100px; /* ajuste conforme o necessário */
+        color: #cfe2c7;
+        font-weight: 600;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    
+    input {
+        background-color: #cfe2c7 ;
+        border-radius: 4px;
+        border: 2px solid #68b644;
+        margin-bottom: 10px;
+    }
+    
+    fieldset{
+        border-radius: 5px;
+        padding: 30px;
+        margin-bottom: 10px;
+        border: #daeed0;
+        width: 500px;
+        margin: 0 auto 20px auto;
+        background-image: url("../imagens/Minecraft.jpg");
+        background-repeat: repeat-y repeat-x;
+        background-image: cover;
+    }
+    .highlight {
+        background: linear-gradient(#56b52b , #80410b);
+    }
+    .participante {
+        padding: 5px;
+        margin: 5px 0;
+        border: 3px solid #1c4807;
+        border-radius: 4px;
+        justify-content: space-between;
+        align-items: center;
+        cursor: pointer;
+        color: #cfe2c7;
+    }
+
+    #insertButton{
+        cursor: pointer;
+        background: linear-gradient(#56b52b , #80410b);
+        border: none;
+        border-radius: 5px;
+        height: 50px;
+        width: 270px;
+        margin-top: 20px;
+        color: #d7e9cf;
+    }
+    input::placeholder{
+        color: #81b06c;
+
+    }
